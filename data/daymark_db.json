@@ -1,0 +1,958 @@
+{
+  "tasks": [
+    {
+      "id": "task-1792779318989-1gomv",
+      "title": "MCP Created Task",
+      "durationMinutes": 30,
+      "priority": "high",
+      "completed": false,
+      "createdAt": "2026-10-23T18:15:18.989Z",
+      "updatedAt": "2026-10-23T18:15:18.989Z"
+    },
+    {
+      "id": "task-1792779318986-vdi2s",
+      "title": "Revise calculus",
+      "durationMinutes": 45,
+      "priority": "medium",
+      "completed": false,
+      "createdAt": "2026-10-23T18:15:18.986Z",
+      "updatedAt": "2026-10-23T18:15:18.986Z"
+    },
+    {
+      "id": "task-1792779318979-gp965",
+      "title": "Unit Test Task",
+      "durationMinutes": 45,
+      "priority": "high",
+      "completed": false,
+      "createdAt": "2026-10-23T18:15:18.979Z",
+      "updatedAt": "2026-10-23T18:15:18.979Z"
+    },
+    {
+      "id": "task-1792779295968-ypv44",
+      "title": "Smoke Test Task via MCP",
+      "durationMinutes": 35,
+      "priority": "high",
+      "completed": false,
+      "createdAt": "2026-10-23T18:14:55.968Z",
+      "updatedAt": "2026-10-23T18:14:55.968Z"
+    },
+    {
+      "id": "task-1792779123334-3y81u",
+      "title": "MCP Created Task",
+      "durationMinutes": 30,
+      "priority": "high",
+      "completed": false,
+      "createdAt": "2026-10-23T18:12:03.334Z",
+      "updatedAt": "2026-10-23T18:12:03.334Z"
+    },
+    {
+      "id": "task-1792779123331-okh0l",
+      "title": "Revise calculus",
+      "durationMinutes": 45,
+      "priority": "medium",
+      "completed": false,
+      "createdAt": "2026-10-23T18:12:03.331Z",
+      "updatedAt": "2026-10-23T18:12:03.331Z"
+    },
+    {
+      "id": "task-1792779123325-0ac49",
+      "title": "Unit Test Task",
+      "durationMinutes": 45,
+      "priority": "high",
+      "completed": false,
+      "createdAt": "2026-10-23T18:12:03.325Z",
+      "updatedAt": "2026-10-23T18:12:03.325Z"
+    },
+    {
+      "id": "task-seed-1",
+      "title": "Finish project prototype",
+      "durationMinutes": 90,
+      "priority": "high",
+      "deadline": "2026-10-24T00:12:03.321Z",
+      "completed": false,
+      "createdAt": "2026-10-23T18:12:03.323Z",
+      "updatedAt": "2026-10-23T18:12:03.323Z"
+    },
+    {
+      "id": "task-seed-2",
+      "title": "Review lecture notes",
+      "durationMinutes": 60,
+      "priority": "medium",
+      "deadline": "2026-10-24T18:12:03.323Z",
+      "completed": false,
+      "createdAt": "2026-10-23T18:12:03.323Z",
+      "updatedAt": "2026-10-23T18:12:03.323Z"
+    },
+    {
+      "id": "task-seed-3",
+      "title": "Prepare hackathon demo",
+      "durationMinutes": 45,
+      "priority": "high",
+      "deadline": "2026-10-24T12:12:03.323Z",
+      "completed": false,
+      "createdAt": "2026-10-23T18:12:03.323Z",
+      "updatedAt": "2026-10-23T18:12:03.323Z"
+    },
+    {
+      "id": "task-seed-4",
+      "title": "Reply to project team",
+      "durationMinutes": 20,
+      "priority": "low",
+      "completed": false,
+      "createdAt": "2026-10-23T18:12:03.323Z",
+      "updatedAt": "2026-10-23T18:12:03.323Z"
+    },
+    {
+      "id": "task-seed-5",
+      "title": "Practice calculus problems",
+      "durationMinutes": 50,
+      "priority": "high",
+      "deadline": "2026-10-25T06:12:03.323Z",
+      "completed": false,
+      "createdAt": "2026-10-23T18:12:03.323Z",
+      "updatedAt": "2026-10-23T18:12:03.323Z"
+    }
+  ],
+  "plans": [
+    {
+      "id": "plan-1792779318990",
+      "availableMinutes": 120,
+      "startTime": "10:00",
+      "totalScheduledMinutes": 120,
+      "remainingMinutes": 0,
+      "utilizationPercent": 100,
+      "blocks": [
+        {
+          "id": "block-task-seed-1",
+          "taskId": "task-seed-1",
+          "title": "Finish project prototype",
+          "type": "task",
+          "startTime": "10:00",
+          "endTime": "11:30",
+          "durationMinutes": 90,
+          "priority": "high",
+          "overflow": false
+        },
+        {
+          "id": "break-2",
+          "title": "Rest & Context Switch",
+          "type": "break",
+          "startTime": "11:30",
+          "endTime": "11:40",
+          "durationMinutes": 10
+        },
+        {
+          "id": "block-task-seed-4",
+          "taskId": "task-seed-4",
+          "title": "Reply to project team",
+          "type": "task",
+          "startTime": "11:40",
+          "endTime": "12:00",
+          "durationMinutes": 20,
+          "priority": "low",
+          "overflow": false
+        }
+      ],
+      "overflowTasks": [
+        {
+          "id": "task-seed-3",
+          "title": "Prepare hackathon demo",
+          "durationMinutes": 45,
+          "priority": "high",
+          "deadline": "2026-10-24T12:12:03.323Z",
+          "completed": false,
+          "createdAt": "2026-10-23T18:12:03.323Z",
+          "updatedAt": "2026-10-23T18:12:03.323Z"
+        },
+        {
+          "id": "task-seed-5",
+          "title": "Practice calculus problems",
+          "durationMinutes": 50,
+          "priority": "high",
+          "deadline": "2026-10-25T06:12:03.323Z",
+          "completed": false,
+          "createdAt": "2026-10-23T18:12:03.323Z",
+          "updatedAt": "2026-10-23T18:12:03.323Z"
+        },
+        {
+          "id": "task-1792779318989-1gomv",
+          "title": "MCP Created Task",
+          "durationMinutes": 30,
+          "priority": "high",
+          "completed": false,
+          "createdAt": "2026-10-23T18:15:18.989Z",
+          "updatedAt": "2026-10-23T18:15:18.989Z"
+        },
+        {
+          "id": "task-1792779123334-3y81u",
+          "title": "MCP Created Task",
+          "durationMinutes": 30,
+          "priority": "high",
+          "completed": false,
+          "createdAt": "2026-10-23T18:12:03.334Z",
+          "updatedAt": "2026-10-23T18:12:03.334Z"
+        },
+        {
+          "id": "task-1792779295968-ypv44",
+          "title": "Smoke Test Task via MCP",
+          "durationMinutes": 35,
+          "priority": "high",
+          "completed": false,
+          "createdAt": "2026-10-23T18:14:55.968Z",
+          "updatedAt": "2026-10-23T18:14:55.968Z"
+        },
+        {
+          "id": "task-1792779318979-gp965",
+          "title": "Unit Test Task",
+          "durationMinutes": 45,
+          "priority": "high",
+          "completed": false,
+          "createdAt": "2026-10-23T18:15:18.979Z",
+          "updatedAt": "2026-10-23T18:15:18.979Z"
+        },
+        {
+          "id": "task-1792779123325-0ac49",
+          "title": "Unit Test Task",
+          "durationMinutes": 45,
+          "priority": "high",
+          "completed": false,
+          "createdAt": "2026-10-23T18:12:03.325Z",
+          "updatedAt": "2026-10-23T18:12:03.325Z"
+        },
+        {
+          "id": "task-seed-2",
+          "title": "Review lecture notes",
+          "durationMinutes": 60,
+          "priority": "medium",
+          "deadline": "2026-10-24T18:12:03.323Z",
+          "completed": false,
+          "createdAt": "2026-10-23T18:12:03.323Z",
+          "updatedAt": "2026-10-23T18:12:03.323Z"
+        },
+        {
+          "id": "task-1792779318986-vdi2s",
+          "title": "Revise calculus",
+          "durationMinutes": 45,
+          "priority": "medium",
+          "completed": false,
+          "createdAt": "2026-10-23T18:15:18.986Z",
+          "updatedAt": "2026-10-23T18:15:18.986Z"
+        },
+        {
+          "id": "task-1792779123331-okh0l",
+          "title": "Revise calculus",
+          "durationMinutes": 45,
+          "priority": "medium",
+          "completed": false,
+          "createdAt": "2026-10-23T18:12:03.331Z",
+          "updatedAt": "2026-10-23T18:12:03.331Z"
+        }
+      ],
+      "createdAt": "2026-10-23T18:15:18.990Z"
+    },
+    {
+      "id": "plan-1792779318987",
+      "availableMinutes": 180,
+      "startTime": "09:00",
+      "totalScheduledMinutes": 175,
+      "remainingMinutes": 5,
+      "utilizationPercent": 97,
+      "blocks": [
+        {
+          "id": "block-task-seed-1",
+          "taskId": "task-seed-1",
+          "title": "Finish project prototype",
+          "type": "task",
+          "startTime": "09:00",
+          "endTime": "10:30",
+          "durationMinutes": 90,
+          "priority": "high",
+          "overflow": false
+        },
+        {
+          "id": "break-2",
+          "title": "Rest & Context Switch",
+          "type": "break",
+          "startTime": "10:30",
+          "endTime": "10:40",
+          "durationMinutes": 10
+        },
+        {
+          "id": "block-task-seed-3",
+          "taskId": "task-seed-3",
+          "title": "Prepare hackathon demo",
+          "type": "task",
+          "startTime": "10:40",
+          "endTime": "11:25",
+          "durationMinutes": 45,
+          "priority": "high",
+          "overflow": false
+        },
+        {
+          "id": "break-4",
+          "title": "Rest & Context Switch",
+          "type": "break",
+          "startTime": "11:25",
+          "endTime": "11:35",
+          "durationMinutes": 10
+        },
+        {
+          "id": "block-task-seed-4",
+          "taskId": "task-seed-4",
+          "title": "Reply to project team",
+          "type": "task",
+          "startTime": "11:35",
+          "endTime": "11:55",
+          "durationMinutes": 20,
+          "priority": "low",
+          "overflow": false
+        }
+      ],
+      "overflowTasks": [
+        {
+          "id": "task-seed-5",
+          "title": "Practice calculus problems",
+          "durationMinutes": 50,
+          "priority": "high",
+          "deadline": "2026-10-25T06:12:03.323Z",
+          "completed": false,
+          "createdAt": "2026-10-23T18:12:03.323Z",
+          "updatedAt": "2026-10-23T18:12:03.323Z"
+        },
+        {
+          "id": "task-1792779123334-3y81u",
+          "title": "MCP Created Task",
+          "durationMinutes": 30,
+          "priority": "high",
+          "completed": false,
+          "createdAt": "2026-10-23T18:12:03.334Z",
+          "updatedAt": "2026-10-23T18:12:03.334Z"
+        },
+        {
+          "id": "task-1792779295968-ypv44",
+          "title": "Smoke Test Task via MCP",
+          "durationMinutes": 35,
+          "priority": "high",
+          "completed": false,
+          "createdAt": "2026-10-23T18:14:55.968Z",
+          "updatedAt": "2026-10-23T18:14:55.968Z"
+        },
+        {
+          "id": "task-1792779318979-gp965",
+          "title": "Unit Test Task",
+          "durationMinutes": 45,
+          "priority": "high",
+          "completed": false,
+          "createdAt": "2026-10-23T18:15:18.979Z",
+          "updatedAt": "2026-10-23T18:15:18.979Z"
+        },
+        {
+          "id": "task-1792779123325-0ac49",
+          "title": "Unit Test Task",
+          "durationMinutes": 45,
+          "priority": "high",
+          "completed": false,
+          "createdAt": "2026-10-23T18:12:03.325Z",
+          "updatedAt": "2026-10-23T18:12:03.325Z"
+        },
+        {
+          "id": "task-seed-2",
+          "title": "Review lecture notes",
+          "durationMinutes": 60,
+          "priority": "medium",
+          "deadline": "2026-10-24T18:12:03.323Z",
+          "completed": false,
+          "createdAt": "2026-10-23T18:12:03.323Z",
+          "updatedAt": "2026-10-23T18:12:03.323Z"
+        },
+        {
+          "id": "task-1792779318986-vdi2s",
+          "title": "Revise calculus",
+          "durationMinutes": 45,
+          "priority": "medium",
+          "completed": false,
+          "createdAt": "2026-10-23T18:15:18.986Z",
+          "updatedAt": "2026-10-23T18:15:18.986Z"
+        },
+        {
+          "id": "task-1792779123331-okh0l",
+          "title": "Revise calculus",
+          "durationMinutes": 45,
+          "priority": "medium",
+          "completed": false,
+          "createdAt": "2026-10-23T18:12:03.331Z",
+          "updatedAt": "2026-10-23T18:12:03.331Z"
+        }
+      ],
+      "createdAt": "2026-10-23T18:15:18.987Z"
+    },
+    {
+      "id": "plan-1792779123335",
+      "availableMinutes": 120,
+      "startTime": "10:00",
+      "totalScheduledMinutes": 120,
+      "remainingMinutes": 0,
+      "utilizationPercent": 100,
+      "blocks": [
+        {
+          "id": "block-task-seed-1",
+          "taskId": "task-seed-1",
+          "title": "Finish project prototype",
+          "type": "task",
+          "startTime": "10:00",
+          "endTime": "11:30",
+          "durationMinutes": 90,
+          "priority": "high",
+          "overflow": false
+        },
+        {
+          "id": "break-2",
+          "title": "Rest & Context Switch",
+          "type": "break",
+          "startTime": "11:30",
+          "endTime": "11:40",
+          "durationMinutes": 10
+        },
+        {
+          "id": "block-task-seed-4",
+          "taskId": "task-seed-4",
+          "title": "Reply to project team",
+          "type": "task",
+          "startTime": "11:40",
+          "endTime": "12:00",
+          "durationMinutes": 20,
+          "priority": "low",
+          "overflow": false
+        }
+      ],
+      "overflowTasks": [
+        {
+          "id": "task-seed-3",
+          "title": "Prepare hackathon demo",
+          "durationMinutes": 45,
+          "priority": "high",
+          "deadline": "2026-10-24T12:12:03.323Z",
+          "completed": false,
+          "createdAt": "2026-10-23T18:12:03.323Z",
+          "updatedAt": "2026-10-23T18:12:03.323Z"
+        },
+        {
+          "id": "task-seed-5",
+          "title": "Practice calculus problems",
+          "durationMinutes": 50,
+          "priority": "high",
+          "deadline": "2026-10-25T06:12:03.323Z",
+          "completed": false,
+          "createdAt": "2026-10-23T18:12:03.323Z",
+          "updatedAt": "2026-10-23T18:12:03.323Z"
+        },
+        {
+          "id": "task-1792779123334-3y81u",
+          "title": "MCP Created Task",
+          "durationMinutes": 30,
+          "priority": "high",
+          "completed": false,
+          "createdAt": "2026-10-23T18:12:03.334Z",
+          "updatedAt": "2026-10-23T18:12:03.334Z"
+        },
+        {
+          "id": "task-1792779123325-0ac49",
+          "title": "Unit Test Task",
+          "durationMinutes": 45,
+          "priority": "high",
+          "completed": false,
+          "createdAt": "2026-10-23T18:12:03.325Z",
+          "updatedAt": "2026-10-23T18:12:03.325Z"
+        },
+        {
+          "id": "task-seed-2",
+          "title": "Review lecture notes",
+          "durationMinutes": 60,
+          "priority": "medium",
+          "deadline": "2026-10-24T18:12:03.323Z",
+          "completed": false,
+          "createdAt": "2026-10-23T18:12:03.323Z",
+          "updatedAt": "2026-10-23T18:12:03.323Z"
+        },
+        {
+          "id": "task-1792779123331-okh0l",
+          "title": "Revise calculus",
+          "durationMinutes": 45,
+          "priority": "medium",
+          "completed": false,
+          "createdAt": "2026-10-23T18:12:03.331Z",
+          "updatedAt": "2026-10-23T18:12:03.331Z"
+        }
+      ],
+      "createdAt": "2026-10-23T18:12:03.335Z"
+    },
+    {
+      "id": "plan-1792779123332",
+      "availableMinutes": 180,
+      "startTime": "09:00",
+      "totalScheduledMinutes": 175,
+      "remainingMinutes": 5,
+      "utilizationPercent": 97,
+      "blocks": [
+        {
+          "id": "block-task-seed-1",
+          "taskId": "task-seed-1",
+          "title": "Finish project prototype",
+          "type": "task",
+          "startTime": "09:00",
+          "endTime": "10:30",
+          "durationMinutes": 90,
+          "priority": "high",
+          "overflow": false
+        },
+        {
+          "id": "break-2",
+          "title": "Rest & Context Switch",
+          "type": "break",
+          "startTime": "10:30",
+          "endTime": "10:40",
+          "durationMinutes": 10
+        },
+        {
+          "id": "block-task-seed-3",
+          "taskId": "task-seed-3",
+          "title": "Prepare hackathon demo",
+          "type": "task",
+          "startTime": "10:40",
+          "endTime": "11:25",
+          "durationMinutes": 45,
+          "priority": "high",
+          "overflow": false
+        },
+        {
+          "id": "break-4",
+          "title": "Rest & Context Switch",
+          "type": "break",
+          "startTime": "11:25",
+          "endTime": "11:35",
+          "durationMinutes": 10
+        },
+        {
+          "id": "block-task-seed-4",
+          "taskId": "task-seed-4",
+          "title": "Reply to project team",
+          "type": "task",
+          "startTime": "11:35",
+          "endTime": "11:55",
+          "durationMinutes": 20,
+          "priority": "low",
+          "overflow": false
+        }
+      ],
+      "overflowTasks": [
+        {
+          "id": "task-seed-5",
+          "title": "Practice calculus problems",
+          "durationMinutes": 50,
+          "priority": "high",
+          "deadline": "2026-10-25T06:12:03.323Z",
+          "completed": false,
+          "createdAt": "2026-10-23T18:12:03.323Z",
+          "updatedAt": "2026-10-23T18:12:03.323Z"
+        },
+        {
+          "id": "task-1792779123325-0ac49",
+          "title": "Unit Test Task",
+          "durationMinutes": 45,
+          "priority": "high",
+          "completed": false,
+          "createdAt": "2026-10-23T18:12:03.325Z",
+          "updatedAt": "2026-10-23T18:12:03.325Z"
+        },
+        {
+          "id": "task-seed-2",
+          "title": "Review lecture notes",
+          "durationMinutes": 60,
+          "priority": "medium",
+          "deadline": "2026-10-24T18:12:03.323Z",
+          "completed": false,
+          "createdAt": "2026-10-23T18:12:03.323Z",
+          "updatedAt": "2026-10-23T18:12:03.323Z"
+        },
+        {
+          "id": "task-1792779123331-okh0l",
+          "title": "Revise calculus",
+          "durationMinutes": 45,
+          "priority": "medium",
+          "completed": false,
+          "createdAt": "2026-10-23T18:12:03.331Z",
+          "updatedAt": "2026-10-23T18:12:03.331Z"
+        }
+      ],
+      "createdAt": "2026-10-23T18:12:03.332Z"
+    }
+  ],
+  "activities": [
+    {
+      "id": "act-1792779318990-mbpe",
+      "actionType": "mcp_tool_invoked",
+      "description": "MCP Tool invoked: create_task",
+      "timestamp": "2026-10-23T18:15:18.990Z",
+      "metadata": {
+        "tool": "create_task",
+        "args": {
+          "title": "",
+          "duration_minutes": 999
+        }
+      }
+    },
+    {
+      "id": "act-1792779318990-712e",
+      "actionType": "plan_generated",
+      "description": "Generated schedule: 2 tasks (120m / 120m budget, 100% utilization)",
+      "timestamp": "2026-10-23T18:15:18.990Z",
+      "metadata": {
+        "planId": "plan-1792779318990",
+        "utilizationPercent": 100
+      }
+    },
+    {
+      "id": "act-1792779318990-zcia",
+      "actionType": "mcp_tool_invoked",
+      "description": "MCP Tool invoked: generate_plan",
+      "timestamp": "2026-10-23T18:15:18.990Z",
+      "metadata": {
+        "tool": "generate_plan",
+        "args": {
+          "available_minutes": 120,
+          "start_time": "10:00"
+        }
+      }
+    },
+    {
+      "id": "act-1792779318989-q9hq",
+      "actionType": "mcp_tool_invoked",
+      "description": "MCP Tool invoked: list_tasks",
+      "timestamp": "2026-10-23T18:15:18.989Z",
+      "metadata": {
+        "tool": "list_tasks",
+        "args": {
+          "filter": "all"
+        }
+      }
+    },
+    {
+      "id": "act-1792779318989-et7w",
+      "actionType": "task_created",
+      "description": "Created task \"MCP Created Task\" (30m, high priority)",
+      "timestamp": "2026-10-23T18:15:18.989Z",
+      "metadata": {
+        "taskId": "task-1792779318989-1gomv"
+      }
+    },
+    {
+      "id": "act-1792779318988-9vhx",
+      "actionType": "mcp_tool_invoked",
+      "description": "MCP Tool invoked: create_task",
+      "timestamp": "2026-10-23T18:15:18.988Z",
+      "metadata": {
+        "tool": "create_task",
+        "args": {
+          "title": "MCP Created Task",
+          "duration_minutes": 30,
+          "priority": "high"
+        }
+      }
+    },
+    {
+      "id": "act-1792779318988-0ofi",
+      "actionType": "assistant_tool_invoked",
+      "description": "Assistant tool executed: generate_plan (180m budget)",
+      "timestamp": "2026-10-23T18:15:18.988Z",
+      "metadata": {
+        "planId": "plan-1792779318987"
+      }
+    },
+    {
+      "id": "act-1792779318987-q7lj",
+      "actionType": "plan_generated",
+      "description": "Generated schedule: 3 tasks (175m / 180m budget, 97% utilization)",
+      "timestamp": "2026-10-23T18:15:18.987Z",
+      "metadata": {
+        "planId": "plan-1792779318987",
+        "utilizationPercent": 97
+      }
+    },
+    {
+      "id": "act-1792779318986-7ya8",
+      "actionType": "assistant_tool_invoked",
+      "description": "Assistant tool executed: create_task (\"Revise calculus\", 45m)",
+      "timestamp": "2026-10-23T18:15:18.986Z",
+      "metadata": {
+        "taskId": "task-1792779318986-vdi2s"
+      }
+    },
+    {
+      "id": "act-1792779318986-4mwp",
+      "actionType": "task_created",
+      "description": "Created task \"Revise calculus\" (45m, medium priority)",
+      "timestamp": "2026-10-23T18:15:18.986Z",
+      "metadata": {
+        "taskId": "task-1792779318986-vdi2s"
+      }
+    },
+    {
+      "id": "act-1792779318983-1ovk",
+      "actionType": "task_deleted",
+      "description": "Deleted task \"Modified Title\"",
+      "timestamp": "2026-10-23T18:15:18.983Z",
+      "metadata": {
+        "taskId": "task-1792779318981-wdylc"
+      }
+    },
+    {
+      "id": "act-1792779318982-7iq3",
+      "actionType": "task_updated",
+      "description": "Updated task \"Modified Title\"",
+      "timestamp": "2026-10-23T18:15:18.982Z",
+      "metadata": {
+        "taskId": "task-1792779318981-wdylc",
+        "updates": {
+          "completed": true
+        }
+      }
+    },
+    {
+      "id": "act-1792779318981-9g13",
+      "actionType": "task_updated",
+      "description": "Updated task \"Modified Title\"",
+      "timestamp": "2026-10-23T18:15:18.981Z",
+      "metadata": {
+        "taskId": "task-1792779318981-wdylc",
+        "updates": {
+          "title": "Modified Title",
+          "durationMinutes": 50
+        }
+      }
+    },
+    {
+      "id": "act-1792779318981-qga9",
+      "actionType": "task_created",
+      "description": "Created task \"To Be Modified\" (30m, medium priority)",
+      "timestamp": "2026-10-23T18:15:18.981Z",
+      "metadata": {
+        "taskId": "task-1792779318981-wdylc"
+      }
+    },
+    {
+      "id": "act-1792779318979-jz2i",
+      "actionType": "task_created",
+      "description": "Created task \"Unit Test Task\" (45m, high priority)",
+      "timestamp": "2026-10-23T18:15:18.979Z",
+      "metadata": {
+        "taskId": "task-1792779318979-gp965"
+      }
+    },
+    {
+      "id": "act-1792779295969-wbnu",
+      "actionType": "task_created",
+      "description": "Created task \"Smoke Test Task via MCP\" (35m, high priority)",
+      "timestamp": "2026-10-23T18:14:55.969Z",
+      "metadata": {
+        "taskId": "task-1792779295968-ypv44"
+      }
+    },
+    {
+      "id": "act-1792779295968-557k",
+      "actionType": "mcp_tool_invoked",
+      "description": "MCP Tool invoked: create_task",
+      "timestamp": "2026-10-23T18:14:55.968Z",
+      "metadata": {
+        "tool": "create_task",
+        "args": {
+          "title": "Smoke Test Task via MCP",
+          "duration_minutes": 35,
+          "priority": "high"
+        }
+      }
+    },
+    {
+      "id": "act-1792779295965-37tc",
+      "actionType": "mcp_tool_invoked",
+      "description": "MCP Tool invoked: list_tasks",
+      "timestamp": "2026-10-23T18:14:55.965Z",
+      "metadata": {
+        "tool": "list_tasks",
+        "args": {
+          "filter": "pending"
+        }
+      }
+    },
+    {
+      "id": "act-1792779123335-ea7t",
+      "actionType": "mcp_tool_invoked",
+      "description": "MCP Tool invoked: create_task",
+      "timestamp": "2026-10-23T18:12:03.335Z",
+      "metadata": {
+        "tool": "create_task",
+        "args": {
+          "title": "",
+          "duration_minutes": 999
+        }
+      }
+    },
+    {
+      "id": "act-1792779123335-awy3",
+      "actionType": "plan_generated",
+      "description": "Generated schedule: 2 tasks (120m / 120m budget, 100% utilization)",
+      "timestamp": "2026-10-23T18:12:03.335Z",
+      "metadata": {
+        "planId": "plan-1792779123335",
+        "utilizationPercent": 100
+      }
+    },
+    {
+      "id": "act-1792779123334-fsdb",
+      "actionType": "mcp_tool_invoked",
+      "description": "MCP Tool invoked: generate_plan",
+      "timestamp": "2026-10-23T18:12:03.334Z",
+      "metadata": {
+        "tool": "generate_plan",
+        "args": {
+          "available_minutes": 120,
+          "start_time": "10:00"
+        }
+      }
+    },
+    {
+      "id": "act-1792779123334-7bux",
+      "actionType": "mcp_tool_invoked",
+      "description": "MCP Tool invoked: list_tasks",
+      "timestamp": "2026-10-23T18:12:03.334Z",
+      "metadata": {
+        "tool": "list_tasks",
+        "args": {
+          "filter": "all"
+        }
+      }
+    },
+    {
+      "id": "act-1792779123334-jda4",
+      "actionType": "task_created",
+      "description": "Created task \"MCP Created Task\" (30m, high priority)",
+      "timestamp": "2026-10-23T18:12:03.334Z",
+      "metadata": {
+        "taskId": "task-1792779123334-3y81u"
+      }
+    },
+    {
+      "id": "act-1792779123333-owq7",
+      "actionType": "mcp_tool_invoked",
+      "description": "MCP Tool invoked: create_task",
+      "timestamp": "2026-10-23T18:12:03.333Z",
+      "metadata": {
+        "tool": "create_task",
+        "args": {
+          "title": "MCP Created Task",
+          "duration_minutes": 30,
+          "priority": "high"
+        }
+      }
+    },
+    {
+      "id": "act-1792779123332-hfyd",
+      "actionType": "assistant_tool_invoked",
+      "description": "Assistant tool executed: generate_plan (180m budget)",
+      "timestamp": "2026-10-23T18:12:03.332Z",
+      "metadata": {
+        "planId": "plan-1792779123332"
+      }
+    },
+    {
+      "id": "act-1792779123332-obp4",
+      "actionType": "plan_generated",
+      "description": "Generated schedule: 3 tasks (175m / 180m budget, 97% utilization)",
+      "timestamp": "2026-10-23T18:12:03.332Z",
+      "metadata": {
+        "planId": "plan-1792779123332",
+        "utilizationPercent": 97
+      }
+    },
+    {
+      "id": "act-1792779123331-yp28",
+      "actionType": "assistant_tool_invoked",
+      "description": "Assistant tool executed: create_task (\"Revise calculus\", 45m)",
+      "timestamp": "2026-10-23T18:12:03.331Z",
+      "metadata": {
+        "taskId": "task-1792779123331-okh0l"
+      }
+    },
+    {
+      "id": "act-1792779123331-qz0e",
+      "actionType": "task_created",
+      "description": "Created task \"Revise calculus\" (45m, medium priority)",
+      "timestamp": "2026-10-23T18:12:03.331Z",
+      "metadata": {
+        "taskId": "task-1792779123331-okh0l"
+      }
+    },
+    {
+      "id": "act-1792779123328-kyoo",
+      "actionType": "task_deleted",
+      "description": "Deleted task \"Modified Title\"",
+      "timestamp": "2026-10-23T18:12:03.328Z",
+      "metadata": {
+        "taskId": "task-1792779123326-6j65w"
+      }
+    },
+    {
+      "id": "act-1792779123327-lu34",
+      "actionType": "task_updated",
+      "description": "Updated task \"Modified Title\"",
+      "timestamp": "2026-10-23T18:12:03.327Z",
+      "metadata": {
+        "taskId": "task-1792779123326-6j65w",
+        "updates": {
+          "completed": true
+        }
+      }
+    },
+    {
+      "id": "act-1792779123327-zwh0",
+      "actionType": "task_updated",
+      "description": "Updated task \"Modified Title\"",
+      "timestamp": "2026-10-23T18:12:03.327Z",
+      "metadata": {
+        "taskId": "task-1792779123326-6j65w",
+        "updates": {
+          "title": "Modified Title",
+          "durationMinutes": 50
+        }
+      }
+    },
+    {
+      "id": "act-1792779123326-dxlj",
+      "actionType": "task_created",
+      "description": "Created task \"To Be Modified\" (30m, medium priority)",
+      "timestamp": "2026-10-23T18:12:03.326Z",
+      "metadata": {
+        "taskId": "task-1792779123326-6j65w"
+      }
+    },
+    {
+      "id": "act-1792779123325-w4ao",
+      "actionType": "task_created",
+      "description": "Created task \"Unit Test Task\" (45m, high priority)",
+      "timestamp": "2026-10-23T18:12:03.325Z",
+      "metadata": {
+        "taskId": "task-1792779123325-0ac49"
+      }
+    },
+    {
+      "id": "act-1792779123323-seed",
+      "actionType": "demo_loaded",
+      "description": "Loaded 5 sample tasks for student prep & hackathon sprint",
+      "timestamp": "2026-10-23T18:12:03.323Z"
+    }
+  ],
+  "metadata": {
+    "version": 1,
+    "lastUpdated": "2026-10-23T18:15:18.990Z",
+    "aiProvider": "local"
+  }
+}

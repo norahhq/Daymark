@@ -1,0 +1,6 @@
+{
+  "name": "Daymark — AI Productivity Assistant",
+  "description": "Make the next step obvious. AI-powered personal productivity assistant with natural-language scheduling, Alexa+ simulated interactions, and Model Context Protocol (MCP) tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
